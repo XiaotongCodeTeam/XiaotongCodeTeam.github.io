@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html lang="zh">
+  <head>
+      <meta charset="UTF-8">
+      <link rel="icon" href="favicon.ico" type ="image/x-icon">
+      <title>安全验证</title>
+      <style>
+        button {  
+            background-color: #00BFFF;  
+            border: none;  
+            color: #ffffff;  
+            padding: 10px 20px;  
+            border-radius: 4px;  
+            cursor: pointer;  
+        }
+        button:hover {  
+            background-color: #0097FF;  
+        } 
+        input {  
+          border: 2px solid blue;  
+          border-radius: 4px;  
+          background-color: white;  
+          height: 25px;
+        }
+      </style>
+  </head>
+  <body>
+      <h2>为确保你的安全，我们将会对支付进行验证！</h2>
+      <h3>请认真回答问题，否则无法继续！</h3>
+      <hr />
+      <p>XiaotongMC的B站名称为（请不要遗漏字符！空格都不行）：</p>
+      <form>  
+      <input type="text" id="input">  
+      <button type="button" onclick="checkInput()">继续</button>  
+      </form>  
+      <p id="result">将点击-继续-按钮后此位置显示true后截屏整个网页发送至XiaotongMC的QQ（2742686520），以便验证！我们会后续通知您并购买！</p>  
+      <script>  
+        function checkInput() {  
+          var input = document.getElementById("input").value;  
+          var result = input == "小桐MC";  
+          document.getElementById("result").innerHTML = result;  
+        }  
+      </script> 
+  </body>
+</html>
