@@ -1,0 +1,17 @@
+body {
+          background-size: 100%;
+          width: 100%;
+	        min-width: 1200px;
+	        font-family: "Minecraft";
+        }
+    button {  
+            background-color: #00BFFF;  
+            border: none;  
+            color: #ffffff;  
+            padding: 10px 20px;  
+            border-radius: 4px;  
+            cursor: pointer;  
+        }
+    button:hover {  
+            background-color: #0097FF;  
+        }
