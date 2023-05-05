@@ -71,3 +71,7 @@ body {
           box-sizing:border-box;
           position: relative;
         }
+img {
+			width: 80px  ;
+			height: 80px;
+		    }
