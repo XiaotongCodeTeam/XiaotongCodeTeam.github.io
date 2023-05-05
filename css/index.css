@@ -72,6 +72,7 @@ body {
           position: relative;
         }
 img {
+	margin-top: 20px;
 			width: 80px  ;
 			height: 80px;
 		    }
