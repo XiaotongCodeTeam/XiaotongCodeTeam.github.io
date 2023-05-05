@@ -1,9 +1,9 @@
 body {
             background-size: 100% ;
             width: 100%;
-	          min-width: 1200px;
-	          font-family: "Consolas";
-	cursor:url(../img/c_mc.ani),default;
+	    min-width: 1200px;
+	    font-family: "Consolas";
+	    cursor: url(../img/c_mc.ani),default;
         }
 	h1 {
 	    padding:20px;
