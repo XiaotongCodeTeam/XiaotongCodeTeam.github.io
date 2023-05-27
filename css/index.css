@@ -1,4 +1,4 @@
-	h1 {
+h1 {
 	    padding:20px;
             font-weight:bold;
             font-size:30px;
@@ -67,4 +67,30 @@
         }
 img {
 	border-radius: 15px;
+}
+#content {
+            border: solid #87CEEB;   /*设置边框样式跟颜色*/
+            margin: 0 auto;   /*设置div居中*/
+            border-width: 2px; /*设置边框宽度*/
+            border-radius: 7px;
+        }
+        .hr-solid-content{
+    color: #a2a9b6;
+    border: 0;
+    font-size: 12px;
+    padding: 1em 0;
+    position: relative;
+}
+.hr-solid-content::before {
+    content: attr(data-content);
+    position: absolute;
+    padding: 0 1ch;
+    line-height: 1px;
+    border: solid #d0d0d5;
+    border-width: 0 99vw;
+    width: fit-content;
+    /* for IE浏览器 */
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
 }
