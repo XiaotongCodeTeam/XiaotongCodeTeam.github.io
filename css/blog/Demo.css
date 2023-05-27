@@ -80,7 +80,6 @@ img {
     border: solid #d0d0d5;
     border-width: 0 99vw;
     width: fit-content;
-    /* for IE浏览器 */
     white-space: nowrap;
     left: 50%;
     transform: translateX(-50%);
