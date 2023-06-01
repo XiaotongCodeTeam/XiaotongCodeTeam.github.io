@@ -1,5 +1,7 @@
 # XTC官方网站
 本网站为XTC官方网站，主要向大家介绍及提供服务。目前我们已经建立起了网页雏形，欢迎大家来贡献自己的力量，只要合理都可以！
+
+（国内镜像源：[Gitee](https://gitee.com/xiaotongmc/XiaotongCodeTeam.github.io)）
 ## 网站构建
 本网站使用Github Pages搭建（笑不活了awa~啊哈哈哈……额(⊙o⊙)…）
 ## 贡献审核
